@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# L'Héritage Winchester (V0.1)
 
-# Run and deploy your AI Studio app
+Un RPG textuel fan-made dans l'univers de Supernatural.
 
-This contains everything you need to run your app locally.
+## 🚀 Installation Locale
 
-View your app in AI Studio: https://ai.studio/apps/drive/1L4K3ybDGpUuVIowo0d1bbIUG9SJn8iMZ
+1. Cloner le repo
+2. `npm install`
+3. `npm run dev`
 
-## Run Locally
+## 📦 Mise en ligne sur GitHub Pages
 
-**Prerequisites:**  Node.js
+À cause des sécurités des éditeurs en ligne, le fichier de workflow est actuellement à la racine sous le nom `deploy.yml`.
 
+**Pour activer le déploiement automatique :**
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Sur GitHub, créez un nouveau dossier `.github` à la racine.
+2. À l'intérieur, créez un dossier `workflows`.
+3. Déplacez le fichier `deploy.yml` à l'intérieur de `.github/workflows/`.
+4. Allez dans les **Settings** du dépôt > **Pages** > Source : **GitHub Actions**.
+
+Le site sera compilé et mis en ligne automatiquement.
