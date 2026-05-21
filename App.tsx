@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { GameState, SceneId } from './types';
 import { INITIAL_GAME_STATE, SCENES } from './constants';
 import { Layout } from './components/Layout';
